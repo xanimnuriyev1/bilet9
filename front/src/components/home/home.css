@@ -1,0 +1,166 @@
+.Boxs{
+    background-color: #4E4E4E;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.colorBox {
+    border: 2px solid white;
+    padding: 20px;
+    width: 400px;
+}
+
+.BoxTitle {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.BoxText {
+    color: #A7A7A7;
+}
+
+.OrangeBox {
+    background-color: #FD5F00;
+}
+
+.RedBox {
+    background-color: #A23131;
+}
+.Box{
+    display: flex;
+}
+.Img{
+    width:100px;
+    height: 100px;
+    object-fit: contain;
+}
+.Cart{
+    width: 220px;
+    text-align: center;
+    background-color: rgba(155, 154, 154, 0.258);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.Carts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.Detail{
+    padding: 8px 35px;
+    background-color: #FD5F00;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.Detail:hover{
+    background-color: #fd6100cc;
+}
+.DetailImg{
+    width:200px;
+    height: 200px;
+    object-fit: contain;
+}
+.Detailcart{
+    background-color: gray;
+    width: 300px;
+    padding: 30px 50px;
+    text-align: center;
+    margin: auto;
+}
+.DetailTitle{
+    color: white;
+}
+.Leadership{
+  text-align: center;
+  margin-top: 50px;
+}
+.Icons{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Icon{
+    width: 30px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #FD5F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HeroImg{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%; 
+ margin-bottom: 15px;  
+}
+.PersonC{
+    border: 1px solid rgba(128, 128, 128, 0.276);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.PersonCart{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.Hero1No{
+    width: 80%;
+}
+.OURSec{
+    text-align: center;
+    margin-top: 50px;
+}
+.OurHead{
+    color: #FD5F00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 0;
+}
+.date{
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+.Lorem{
+    color: #6c757d;
+}
+.Ourcarts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    text-align: center;
+}
+@media screen and (max-width:992px){
+    .Box{
+        display: flex;
+        flex-direction: column;
+    }.colorBox {
+        width: 100%;
+    }.PersonCart{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
+        justify-content: center;
+    } .Ourcarts{
+        display: flex;
+        margin: 30px 0;
+        flex-direction: column;
+    }.Hero1No{
+        width: 100%;
+    }.Carts{
+        margin-top: 30px;
+        gap: 10px;
+        margin: auto;
+    }
+}
